@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE realisations [
+<!ELEMENT realisations (work+)>
+<!ELEMENT work (title, description, link, image)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+]>
+
+<realisations>
+    <work>
+        <title>Citation</title>
+        <description>Le projet Générateur de citations présente deux citations personnalisées créées avec JavaScript.</description>
+        <link>https://haroonyaqubi.github.io/Citation/</link>
+        <image>/assets/images/image1.jpg</image>
+    </work>
+    <work>
+        <title>Lieux de restauration des CROUS de la MEL</title>
+        <description>Site web permettant d'afficher les lieux de restauration des CROUS de la Métropole Européenne de Lille.</description>
+        <link>https://haroonyaqubi.github.io/Lieux-de-restauration-des-CROUS-de-la-MEL/</link>
+        <image>/assets/images/image2.jpg</image>
+    </work>
+    <work>
+        <title>Application Météo</title>
+        <description>Il s'agit d'une application météorologique simple qui permet aux utilisateurs de vérifier les conditions météorologiques pour une ville donnée.</description>
+        <link>https://haroonyaqubi.github.io/App-Meteo/</link>
+        <image>/assets/images/image3.jpg</image>
+    </work>
+</realisations>

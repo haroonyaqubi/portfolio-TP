@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/2aeb1c8d9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <!-- Navigation bar -->
+            <nav>
+                <img src="/assets/images/logo.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">à Propos</a></li>
+                    <li><a href="work.html">Mes Réalisations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                <i class="fas fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- Contact Information and Form -->
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Me contacter</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> Contact@example.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-square-phone"></i> 01234567889</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="download/my-cv.pdf" download class="btn btn2">Télécharger CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Votre nom" required>
+                        <input type="email" name="Email" placeholder="Votre Email" required>
+                        <textarea name="Message" rows="6" placeholder="Votre message"></textarea>
+                        <button type="submit" class="btn btn2">Envoyer</button>
+                    </form>
+                </div>            
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="footerNav">
+                    <ul>
+                        <li><a href="">Accueil</a></li>
+                        <li><a href="">à Propos</a></li>
+                        <li><a href="">Mes Réalisations</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>  
+    </div>
+    <script src="/assets/JavaScript/script.js"></script>
+</body>
+</html>
