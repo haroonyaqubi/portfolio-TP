@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
 body {
     background-color : #F1FAEE;
     }
@@ -57,7 +56,7 @@ nav ul li a{
 .container .row{
     display: flex;
     justify-content: space-between;
-    padding: 42px 10%;
+    padding: 60px 10%;
 }
 .about-col-1{
     flex-basis: 35%;
@@ -275,11 +274,11 @@ footer{
         font-size: 25px;
     }
     nav ul {
-        background-color: #e63946;
+        background-color:#E63946;
         position: fixed;
         top: 0;
         right: -200px;
-        width: 200px;
+        width: 180px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -309,21 +308,21 @@ footer{
     .about-col-2 h1{
         font-size: 18px;
         font-weight: 400;
-        padding: 20px;
+        padding: 30px;
         text-align: center;
     }
     
     .about-col-2 p{
         font-size: 12px;
         text-align: left;
-        padding-top: 10px;
+        padding: 24px;
         line-height: 35px;
         color: #1d3557;
     }
       /*-----work.html------*/
 
 .sub-title-1{
-        font-size: 24px;
+        font-size: 18px;
         font-weight:400;
         text-align: center;
         padding-top: 15px;
@@ -332,7 +331,7 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 20px;
-        padding: 90px 10px;
+        padding: 105px 10px;
     }
 
     .work-list h1{
@@ -347,14 +346,14 @@ footer{
      }
      .work-list a{
         font-size: 14px;
-       margin-left: 185px;
+        text-align: center;
      }
 
     .work img{
         display: flex;
         width: 30%;
         border-radius: 20px;
-        margin-left: 140px;
+        margin:auto;
     }
     .btn{
         margin: 10px auto;

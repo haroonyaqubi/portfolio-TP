@@ -24,7 +24,7 @@ function displayWork(xml) {
         const link = work.getElementsByTagName('link')[0].textContent;
         const imageSrc = work.getElementsByTagName('image')[0].textContent;
  
-        // Créer des éléments de travail
+        // Créer des éléments 
         const workItem = document.createElement('div');
         workItem.classList.add('work');
 
